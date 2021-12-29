@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="/static/vue-wln.js"></script>
+  </head>
+  <body>
+   <div id="app">
+    <div class="wln-title tips">{{test}}</div>
+   </div>  
+  </body>
+  <script>
+    new Vue({
+      el: '#app',
+      data(){
+        return {
+          test:'111'
+        }
+      },
+      created: function () {
+        // `this` 指向 vm 实例
+      }
+    })
+  </script>
+</html>
